@@ -9,32 +9,24 @@
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body class="main-bg">
     <header class="header">
+        <div class="logo">
+            <h1 class="nombre">Sara Morales</h1> 
+            <p class="labor"><strong>Content Creator</strong></p>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <nav class="nav">
-            <div class="logo">
-                <h1 class="nombre">Sara Morales</h1> 
-                <p class="labor">Content Creator</p>
-            </div>
-            
-            <ul class="list">
-                <li>
-                    <a class="btn" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="btn" href="CV.html">CV</a>
-                </li>
-                <li>
-                    <a class="btn" href="portfolio.html">Portfolio </a>
-                </li>
-                <li>
-                    <a class="btn" href="contact.html">Contact me</a>
-                </li>
-            </ul>
+            <a class="btn" href="index.html">Home</a>
+            <a class="btn" href="CV.html">CV</a>
+            <a class="btn" href="portfolio.html">Portfolio </a>
+            <a class="btn" href="contact.html">Contact me</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section class="info">
             <div class="profile">
                 <img src="./imagenes/perfil/perfil Sara.JPG" alt="">
@@ -46,21 +38,26 @@
                 I am captivated by creating and analyzing digital content from a strategic point of view. </br>
                 I love reading, writing, dogs and learning new things.</p>
             </div>
+            <div>
+                <a href="./CV.html">CV</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./contact.html">Let's talk!</a>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p><strong>Phone</strong> +56 9 3333 4444</p>
         <p><strong>Email</strong> saramf@gmail.com</p>
-        <p><strong>Follow me</strong></p>
-        <div>
-
+        <div class="rrss">
+            <p><strong>Follow me!</strong></p>
+            <a href="https://www.linkedin.com/in/saramoralesfranzese/" target="_blank">
+                <img src="./imagenes/perfil/linkedin-logo-black.png" alt="linkedin", width="20px" height="20px">
+            </a>
+            <a href="https://www.instagram.com/saraestefania/" target="_blank">
+                <img src="./imagenes/perfil/instagram-logo.png" alt="instagram" width="20px" height="20px">
+            </a>
         </div>
-        <a href="https://www.linkedin.com/in/saramoralesfranzese/" target="_blank">
-            <img src="./imagenes/perfil/linkedin-logo-black.png" alt="linkedin", width="20px" height="20px">
-        </a>
-        <a href="https://www.instagram.com/saraestefania/" target="_blank">
-            <img src="./imagenes/perfil/instagram-logo.png" alt="instagram" width="20px" height="20px">
-        </a>
+
     </footer> 
 </body>
 </html>

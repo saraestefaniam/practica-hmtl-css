@@ -15,7 +15,6 @@
     padding: 0;
     display: flex;
     gap: 10px;
-
 }
 
 .list {
@@ -35,4 +34,6 @@
 
 .logo {
     text-align: left;
+    margin-left: 10px;
 }
+
