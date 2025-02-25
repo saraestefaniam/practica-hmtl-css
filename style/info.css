@@ -5,22 +5,31 @@
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     img {
         display: flex;
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
         border-radius: 50%;
         margin-top: 2rem;
-        margin-left: 1rem;
-        align-items: center;
     }
     .resume {
         position: relative;
-        left: 15px;
-        margin-top: 5%;
+        text-align: center;
         .text {
             margin-top: 1rem;
+            margin-bottom: 2rem;
         }
     }
 }
 
+/*
+@media screen and (width > 768px) {
+    .info {
+        display: flex;
+        align-items: center;
+    }
+}
+*/

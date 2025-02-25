@@ -49,6 +49,29 @@
     gap: 0;
 }
 
+.container-big-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.big-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-brand-color);
+    color: var(--second-main-text-color);
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 120px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
 @media screen and (width > 768px) {
     .menu-icon {
         display: none;
@@ -62,24 +85,4 @@
         top: 0;
     }
 }
-    /*
-    .nav {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        max-width: 40%;
-        margin-top:0;
-    }
-
-    .btn {
-        color: var(--main-text-color);
-        background-color: transparent;
-        text-decoration: none;
-        padding: 0;
-        margin-top: 0;
-    }
-}
-  
-
-
-
+    
