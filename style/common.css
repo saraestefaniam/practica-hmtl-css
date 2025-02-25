@@ -12,3 +12,11 @@
 .main-bg {
     background-color: var(--bg-color);
 }
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: var(--main-brand-color);
+    margin-top: 30px;
+    margin-bottom: 0;
+}
