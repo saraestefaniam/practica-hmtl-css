@@ -72,6 +72,21 @@
     text-wrap: wrap;
 }
 
+.form-element {
+    display: flex;
+    margin-bottom: 1rem;
+    label {
+        margin-bottom: 0.5rem;
+    }
+}
+
+fieldset.form-element {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
 @media screen and (width > 768px) {
     .menu-icon {
         display: none;
