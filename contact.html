@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Morale's portfolio | Contact </title>
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+</head>
+<body>
+    <main>
+        <h1>Contact me</h1>
+        <form action="./registro" method="post" novalidate></form>
+        <div>
+            <label for="name">What's your name?</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Add your email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="tel">Add your phone number</label>
+            <input type="tel" name="telephone" id="tel">
+        </div>
+        <fieldset>
+            <legend>What are you looking for?</legend>
+            <label for="brand">Branding</label>
+            <input type="checkbox" name="service" id="brand" value="branding">
+            <label for="content">Content creation</label>
+            <input type="checkbox" name="service" id="content" value="content creation">
+            <label for="photo">Photography</label>
+            <input type="checkbox" name="service" id="photo" value="photography">
+        </fieldset>
+        <div>
+            <label for="message">Message</label>
+            <textarea required name="message" id="message" rows="6" placeholder="Leave your message" maxlength="200"></textarea>
+        </div>
+        <div>
+            <label for="source">Where did you hear about me?</label>
+            <select required name="source" id="source">
+                <option value="lk">LinkedIn</option>
+                <option value="ig">Instagram</option>
+                <option value="co">Colleague</option>
+                <option value="ot">Other</option>
+            </select>
+        </div>
+        <div>
+            <input type="reset" value="reset">
+            <button type="submit">
+                Enviar
+            </button>
+        </div>
+    </main>
+</body>
+</html>
