@@ -83,32 +83,18 @@
         margin-bottom: 1rem;
     }
 }
+
 .field 
 {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    text-align: center;
     label {
         display: flex;
         align-items: center;
     }
 }
-/*
-fieldset.form-element {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5px;
-    align-items: center;
-    border: none;
-    label {
-        display: flex;
-        align-items: center;
-        gap:5px;
-    }
-}
-*/
+
 @media screen and (width > 768px) {
     .menu-icon {
         display: none;
@@ -121,5 +107,7 @@ fieldset.form-element {
         max-width: 40%;
         top: 0;
     }
+
+    
 }
     
