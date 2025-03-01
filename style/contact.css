@@ -6,5 +6,10 @@
     max-width: 420px;
     margin: 0 auto;
     padding: 3rem 2rem;
-    border-radius: 4px;
-  }
+}
+
+input, textarea, select {
+    border: none;
+    padding: 0,7rem;
+    border-radius: 5px;;
+}
