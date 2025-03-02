@@ -2,7 +2,7 @@
     --bg-color: #ae847e;
     --main-text-color: #000;
     --second-main-text-color: #ffffff;
-    --main-brand-color: #2c0e37;
+    --main-brand-color: #4d1f5e;
     --main-brand-color-ligh:#DAA89B;
     --input-bg-color: #d2cdcf;
     font-size: 1rem;
@@ -19,4 +19,22 @@
     background-color: var(--main-brand-color);
     margin-top: 30px;
     margin-bottom: 0;
+}
+
+.heading-1 {
+    font-size: 30px;
+}
+
+.heading-2 {
+    font-size: 25px;
+}
+
+.heading-3 {
+    font-size: 20px;
+}
+
+@media screen and (width > 768px) {
+    p {
+        font-size: 20px;
+    }
 }

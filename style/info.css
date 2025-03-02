@@ -25,6 +25,46 @@
     }
 }
 
+.skills {
+    display: inline-block;
+    margin: 20px, 0;
+    p {
+        font-weight: bold;
+    }
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.progress-bar:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 0;
+    background-color: var(--main-brand-color);
+    transition: width 1s ease forwards;
+    border-radius: 10px;
+}
+
+.design::before {
+    width: 80%;
+}
+
+.creating::before {
+    width: 100%;
+}
+
+.editing::before {
+    width: 90%;
+}
+
+
 /*
 @media screen and (width > 768px) {
     .info {
