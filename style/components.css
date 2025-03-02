@@ -80,6 +80,7 @@
     margin-bottom: 1rem;
     label {
         margin-bottom: 0.5rem;
+        font-weight: bold;
     }
     .reset {
         margin-bottom: 1rem;
@@ -91,9 +92,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    margin-bottom: 0.5rem;
     label {
         display: flex;
         align-items: center;
+    }
+    legend {
+        font-weight: bold;
     }
 }
 
@@ -121,5 +126,19 @@
         color: var(--main-brand-color);
     }
 
+    .container-big-btn {
+        display: flex;
+        gap: 50px;
+    }
+
+    .big-btn {
+        width: 200px;
+        font-size: 1.3rem;
+        transition: all 0.5s ease;
+        border: 2px solid var(--main-brand-color);
+    }
+
+    .big-btn:hover {
+        background-color: transparent;
+    }
 }
-    

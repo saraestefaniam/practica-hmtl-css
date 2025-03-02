@@ -1,6 +1,28 @@
 .video-podcast {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 10px;
+    animation: fadeInEffect 1s ease-in forwards;
 }
 
+.iframe-ytb {
+    height: 40vh;
+    width: 90%;
+}
+
+@keyframes fadeInEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (width > 768px) {
+    .iframe-ytb {
+        height: 100vh;
+        width: 90%;
+    }
+}
