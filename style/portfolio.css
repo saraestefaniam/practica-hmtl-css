@@ -1,0 +1,36 @@
+.main .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+}
+
+.marca {
+    margin-top: 20px;
+    text-align: center;
+    img {
+        height: 150px;
+        width: 150px;
+    }
+    a {
+        color: black;
+        text-decoration: underline;
+        font-size: 1rem;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (width > 768px) {
+    .marca {
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+
+    .main .portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
